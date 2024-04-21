@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>surveyform</title>
+  </head>
+  <body>
+    <h1><b>TechSpace Survey Form</b></h1>
+    <p>
+      <i><b>Thank you for taking the time to help us improve the platform</b></i>
+    </p>
+    <form>
+        <label for="username">Name</label>
+        <br />
+        <input type="text" id="username" placeholder="Enter your name" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" placeholder="Enter your Email" />
+        <br />
+        <label for="age">Age</label>
+        <br />
+        <input type="number" id="age" placeholder="Enter your age" />
+        
+        <p>Which option best describes your current role?</p>
+        <select name="role" id="role">
+          <option value="Select Current Role">Select Current Role</option>
+          <option value="student">Student</option>
+          <option value="full time job">Full Time Job</option>
+          <option value="full time learner">Full Time Learner</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+
+        <p>Would you recommend Tech Space to a friend?</p>
+        <input type="radio" id="definitely" value="definitely" name="radio" />
+        <label for="definitely">Definitely</label> <br />
+        <input type="radio" id="maybe" value="maybe" name="radio" />
+        <label for="maybe">Maybe</label> <br />
+        <input type="radio" id="notsure" value="notsure" name="radio" />
+        <label for="notsure">Not sure</label> <br />
+        
+        <p>What would you like to see improved?(Check all 
+            that apply)</p>
+        <input type="checkbox" id="front-end projects" value="front-end projects" />
+        <label for="front-end projects">Front-end Projects</label>
+        <br />
+        <input type="checkbox" id="Back-end Projects" value="Back-end Projects" />
+        <label for="Back-end Projects">Back-end Projects</label>
+        <br />
+        <input type="checkbox" id="Data Visualization" value="Data Visualization" />
+        <label for="Data Visualization">Data Visualization</label>
+        <br />
+        <input type="checkbox" id="Challenges" value="Challenges" />
+        <label for="Challenges">Challenges</label>
+        <br />
+        <input type="checkbox" id="Open Source Community" value="Open Source Community" />
+        <label for="Open Source Community">Open Source Community</label>
+        <br />
+        <input type="checkbox" id="Gitter help rooms" value="Gitter help rooms" />
+        <label for="Gitter help rooms">Getter help rooms</label>
+        <br />
+        <input type="checkbox" id="Videos" value="Videos" />
+        <label for="Videos">Videos</label>
+        <br />
+        <input type="checkbox" id="City Meetups" value="City Meetups" />
+        <label for="City Meetups">City Meetups</label>
+        <br />
+        <input type="checkbox" id="Wiki" value="Wiki" />
+        <label for="Wiki">Wiki</label>
+        <br />
+        <input type="checkbox" id="Forum" value="Forum" />
+        <label for="Forum">Forum</label>
+        <br />
+        <input type="checkbox" id="Additional Courses" value="Additional Courses" />
+        <label for="Additional Courses">Additional Courses</label>
+        <br />
+        <br />
+
+        <label for="comments">
+            <p>Any comments or suggestions?</p>
+        </label>
+        <textarea cols="50" rows="4" id="comments" placeholder="Enter your comment here..."></textarea>
+        <br />
+
+        <button type="submit">Submit</button>
+        
+      </form>
+    </body>
+  </html>
+  </body>
+</html>
